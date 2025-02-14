@@ -8,7 +8,7 @@ def prepare_variables(input_array, output_array):
     expected_output = '\n'.join(output_array)
 
     # Get Actual Output from Input Data
-    output_data = subprocess.run(['python', 'main.py'], input=input_data, stdout=subprocess.PIPE)
+    output_data = subprocess.run(['python3', 'main.py'], input=input_data, stdout=subprocess.PIPE)
     output_bytes = output_data.stdout.strip()
     output_string = output_bytes.decode("utf-8")
 
