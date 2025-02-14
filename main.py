@@ -1,5 +1,4 @@
 def get_numbers():
-    """Función para ingresar dos números."""
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     return num1, num2
