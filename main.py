@@ -1,10 +1,9 @@
 def main():
-    # Tarea principal: Sumar dos números
+
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     print("The sum is:", num1 + num2)
 
-    # Opciones extra
     print("\nExtra Features:")
     print("1. Subtraction")
     print("2. Multiplication")
